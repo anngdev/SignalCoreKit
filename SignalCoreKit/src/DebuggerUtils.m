@@ -41,7 +41,7 @@ void TrapDebugger(void)
         return;
     }
 
-    __builtin_debugtrap();
+//    __builtin_debugtrap();
 }
 
 #endif // DEBUG
